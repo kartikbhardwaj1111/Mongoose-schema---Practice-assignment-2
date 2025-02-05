@@ -1,4 +1,4 @@
-```const mongoose = require('mongoose');
+const mongoose = require('mongoose');
 
 const CommentSchema = new mongoose.Schema({
     username: {
@@ -57,4 +57,3 @@ const BlogPostSchema = new mongoose.Schema({
 
 const BlogPost = mongoose.model('BlogPost', BlogPostSchema);
 module.exports = BlogPost;
-```
